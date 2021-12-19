@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1639863376",
+        "python_version": "3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\shovalga-Autonomous-car\\venv\\Scripts\\mlagents-learn --run-id=test3",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.0+cu110",
+        "numpy_version": "1.21.4",
+        "end_time_seconds": "1639863392"
+    },
+    "total": 16.525386899999997,
+    "count": 1,
+    "self": 0.003284299999997131,
+    "children": {
+        "run_training.setup": {
+            "total": 0.019987199999999983,
+            "count": 1,
+            "self": 0.019987199999999983
+        },
+        "TrainerController.start_learning": {
+            "total": 16.5021154,
+            "count": 1,
+            "self": 0.00042770000000302844,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 16.501678899999998,
+                    "count": 1,
+                    "self": 16.501678899999998
+                },
+                "trainer_threads": {
+                    "total": 1.0000000010279564e-06,
+                    "count": 1,
+                    "self": 1.0000000010279564e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 7.799999998781004e-06,
+                    "count": 1,
+                    "self": 7.799999998781004e-06
+                }
+            }
+        }
+    }
+}
